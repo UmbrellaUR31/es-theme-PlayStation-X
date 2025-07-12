@@ -40,12 +40,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		<include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '30/17'" name="16-9" displayName="16:9 (${theme.detected})" />
 		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})"/>
+		<include if="{screen.ratio} == '21/9'" name="21-9" displayName="21:9 ultrawidescreen (${theme.detected})" />	<!-- ULTRAWIDESCREEN 21-9 -->
 	</subset>
 
 
 	<!--RELACION DE ASPECTO NO DETECTADA (mostramos todas las opciones) -->
 	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
 		<include name="16-9" displayName="16:9 widescreen" />
+		<include name="21-9" displayName="21:9 ultrawidescreen" />	<!-- ULTRAWIDESCREEN 21-9 -->
 		<include name="4-3" displayName="4:3 standard" />
 		<include name="16-10" displayName="16:10" />
 		<include name="5-4" displayName="5:4" />	
