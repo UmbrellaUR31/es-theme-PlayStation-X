@@ -133,7 +133,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 <!-- ps4Style -->
 
-      <customView name="ps4Style">
+      <customView name="ps4Style, ps4Style_21-9">
 
          <imagegrid name="gamegrid" ifSubset="game-video:inside|default">
             <showVideoAtDelay ifSubset="video-gamelist-delay:0s">1</showVideoAtDelay>
